@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indent Page</title>
+
+    <link rel="stylesheet" href="../../static/css/reset.css">
+    <link rel="stylesheet" href="../../static/css/public/info.css">
+</head>
+<body>
+    <main class="clearfix">
+        <div id="userBlock" class="clearfix">
+            <div id="userImage" class="clearfix">?</div>
+
+            <div id="userInformation" class="clearfix">
+                <p class="clearfix">姓名
+                    <span id="userName"></span><!--在此填充使用者名称-->
+                </p>
+                <p class="clearfix">id&nbsp;
+                   <span id="userID"></span>
+                </p>
+            </div>
+
+            <form action="" class="clearfix">
+                <button id="exitButton" type="button">登出</button>
+            </form>
+        </div>
+        
+        <div id="contentBlock" class="clearfix">
+            <ol id="itemList" class="clearfix">
+                <li id="item_1">
+                    <div class="clearfix" style="width: 400px;">
+                        <p>甲方姓名：
+                            <span id="firstPartyName"></span>
+                        </p>
+                        <p style="padding-top: 20px;">甲方id：
+                            <span id="firstPartyId"></span>
+                        </p>
+                        <p style="padding-top: 20px;">甲方签署时间：
+                            <span id="firstPartyTime"></span>
+                        </p>
+                    </div>
+                    <div class="clearfix" style="width: 400px;">
+                        <p>乙方姓名：
+                            <span id="secondPartyName"></span>
+                        </p>
+                        <p style="padding-top: 20px;">乙方id：
+                            <span id="secondPartyId"></span>
+                        </p>
+                        <p style="padding-top: 20px;">乙方签署时间：
+                            <span id="secondPartyTime"></span>
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <img src="" alt="" id="image">
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../../static/js/public/info.js"></script>
+    <script src="../../static/js/public.js"></script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#item_1>.clearfix {
+    width: 179px;
+}
+
+body {
+    background-color: rgba(245, 245, 243, 0.6);
+}
+
+main {
+    width: 1150px;
+    margin: 0px auto;
+    padding-bottom: 150px;
+
+    position: relative;
+}
+
+#nav {
+    width: 900px;
+    height: 30px;
+    margin: 20px 0px;
+    padding: 15px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 15px;
+    box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.4);
+
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nav>input {
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(245, 245, 245, 0.6);
+
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: grey;
+    font-size: 15px;
+}
+
+#searchInfo{
+    width: 120px;
+}
+
+#userBlock {
+    width: 220px;
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    top: 120px;
+    left: 930px;
+    position: absolute;
+}
+
+#userImage {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+    background-color: rgba(144, 144, 144, 0.6);
+
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#userInformation>p {
+    color: grey;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+
+#userName {
+    color: black;
+}
+
+#userFunction {
+    margin: 20px 0px;
+}
+
+#userFunction>li {
+    margin: 10px auto;
+    border-bottom: 2px solid rgba(36, 36, 36, 0.4);
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#userFunction>li>a {
+    color: black;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#userBlock>form {
+    margin: 0px auto;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#contentBlock {
+    width: 900px;
+    margin-top: 20px;
+    padding: 5px 0px;
+    background-color: rgba(245, 245, 245, 0.6);
+
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+#itemList>li {
+    width: 840px;
+    height: 45px;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#itemList>li>div {
+    padding: 2px;
+    float: left;
+}
+
+#itemList>li>div {
+    width: 215px;
+    height: 44px;
+    color: grey;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+
+#itemList>li>div>p {
+    width: 240px;
+}
+
+#itemList>li>div:not(:last-child){
+    border-right: 2px solid rgba(36, 36, 36, 0.4);
+}
+
+.indentInfo1{
+    line-height: 50px;
+}
+
+.indentInfo2,
+.indentInfo3{
+    line-height: 25px;
+}
+
+.indentID{
+    color: black;
+    font-size: 17px;
+}
+
+/* #itemList>li>div.itemDetial {
+    width: 250px;
+    height: 100px;
+
+    color: grey;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: left;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+
+#itemList>li>form {
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+
+    line-height: 97px;
+    text-align: right;
+    vertical-align: middle;
+
+    float: right;
+} */
+
+#searchButton,
+#exitButton,
+#lastButton,
+#nextButton,
+#topButton{
+    width: 90px;
+    background-color: #2e2e2e;
+
+    border: none;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
+    color: white;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#addButton {
+    width: 45px;
+    background-color: #2e2e2e;
+
+    border: none;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
+    color: white;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(36, 36, 36, 0.6);
+    margin: 10px 15px;
+    color: #2e2e2e;
+    float: right;
+}
+
+#searchButton {
+    width: 75px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#lastButton,
+#nextButton {
+    background-color: rgba(36, 36, 36, 0.6);
+    margin: 10px 15px;
+
+    color: #2e2e2e;
+
+    float: right;
+}
+
+#topButton {
+    font-family: SimHei;
+    font-size: 25px;
+    width: 150px;
+    background-color: white;
+
+    color: #2e2e2e;
+    text-decoration: none;
+
+    right: 15px;
+    bottom: 15px;
+    position: fixed;
+}
+
+.signButton,
+.changeButton,
+.deleteButton{
+    width: 35px;
+    background-color: #2e2e2e;
+
+    border: none;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
+    color: white;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    vertical-align: middle;
+
+    margin: 0px 5px;
+}
+
+#image,
+#veinImage {
+    width: 150px;
+}
+
+#itemType {
+    font-size: 15px;
+}

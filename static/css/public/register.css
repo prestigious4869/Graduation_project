@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(245, 245, 243, 0.6);
+}
+
+form {
+    width: 450px;
+    margin: 200px auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+    line-height: 60px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+form>input {
+    width: 70%;
+    outline: none;
+    border: 2px solid rgba(36, 36, 36, 0.4);
+    background-color: rgba(245, 245, 245, 0.6);
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: grey;
+    font-size: 22px;
+}
+
+form>button {
+    font-family: SimHei;
+    width: 120px;
+    margin: 0px 20px;
+    background-color: #2e2e2e;
+
+    border:none;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+    color: white;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="../../static/css/reset.css">
+    <link rel="stylesheet" href="../../static/css/public/login.css">
+
+</head>
+
+<body>
+    <form action="">
+        <div id="title">电子合同签署系统</div>
+        <input type="text" name="userAccount" placeholder="账号">
+        <br>
+        <input type="password" name="userPassword" placeholder="密码">
+        <br>
+        <button type="button" id="loginButton">登录</button>
+    </form>
+    
+    <button type="button" id="registerButton">注册</button>
+
+    <!-- <img src="data:image/png;base64,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" alt=""> -->
+
+     <!-- 上传框主体 -->
+     <div id="upload_main" class="upload">
+        <!-- 上传框标题 -->
+        <div id="upload_title" class="upload_title">
+            初次使用请先上传指静脉图片
+            <span><a id="closeBtn" href="javascript:void(0)">×</a></span>
+        </div>
+        <!-- 上传框表单 -->
+        <div class="upload_input">
+            <label for="contract">添加指静脉图片：</label>
+            <input type="file" multiple="multiple" accept="image/jpeg" id="vein" name="vein">
+        </div>
+        <button type="button" class="upload_button" id="upload_button">上传</button>
+    </div>
+    
+    <!-- 遮盖层 -->
+    <div id="bg" class="bg">sada</div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../../static/js/public/login.js"></script>
+</body>
+
+</html>

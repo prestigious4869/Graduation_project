@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indent Page</title>
+
+    <link rel="stylesheet" href="../../static/css/reset.css">
+    <link rel="stylesheet" href="../../static/css/public/contract.css">
+</head>
+<body>
+    <main class="clearfix">
+        <form action="" id="nav" class="clearfix">
+            <div>
+                <label for="contract">添加合同</label>
+                <input type="file" multiple="multiple" accept="image/jpeg" id="image" name="image">
+                <button type="button" id="upload">上传</button>
+            </div>
+            <!-- <input id="searchInfo" type="text" name="itemInfo">
+            <button id="searchButton" type="button">检索</button> -->
+        </form>
+ 
+        <div id="userBlock" class="clearfix">
+            <div id="userImage" class="clearfix">?</div>
+
+            <div id="userInformation" class="clearfix">
+                <p class="clearfix">姓名
+                    <span id="userName"></span><!--在此填充使用者名称-->
+                </p>
+                <p class="clearfix">id&nbsp;
+                   <span id="userID"></span>
+                </p>
+            </div>
+
+            <form action="" class="clearfix">
+                <button id="exitButton" type="button">登出</button>
+            </form>
+        </div>
+        
+        <div id="contentBlock" class="clearfix">
+            <ol id="itemList" class="clearfix">
+                <!-- 已签署 -->
+                <!-- <li id="item_1">
+                    <div class="clearfix" style="width: 290px;">
+                        <p>合同:
+                            <span id="finishContractName"></span>
+                        </p>
+                        <div class="finishPreview" style="display: inline-block; width: 100px; margin-top: 10px; color: cadetblues; text-align: center;">预览</div>
+                        <div class="scan" style="display: inline-block; width: 100px; margin-top: 10px; color: cadetblues; text-align: center;">扫描二维码</div>
+                    </div>
+                    <div class="clearfix" style="width: 290px;">
+                        <p>签署对象：
+                            <span id="finishTargetName"></span>
+                        </p>
+                        <p style="padding-top: 10px;">签署对象id：
+                            <span id="finishTargetId"></span>
+                        </p>
+                    </div>
+                    <div style="width: 140px;">
+                        <p>状态：
+                            <span id="contractState">已签署</span>
+                        </p>
+                    </div>
+                </li> -->
+                <!-- 待签署 -->
+                <!-- <li id="item_1">
+                    <div class="clearfix" style="width: 220px;">
+                        <p>合同:
+                            <span id="waitMeContractName"></span>
+                        </p>
+                        <div class="waitMePreview" style="margin-top: 5px; color: cadetblues; text-align: center;">预览</div>
+                    </div>
+                    <div class="clearfix" style="width: 220px;">
+                        <p>签署对象：
+                            <span id="waitMeTargetName"></span>
+                        </p>
+                        <p style="padding-top: 10px;">签署对象id：
+                            <span id="waitMeTargetId"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <label for="contract">上传指纹</label>
+                        <input type="file" multiple="multiple" accept="image/jpeg" id="veinImage" name="image">
+                    </div>
+                    <div style="width: 100px;">
+                        <p>状态：
+                            <span id="contractState">待签署</span>
+                        </p>
+                    </div>
+                    <div style="width: 50px;">
+                        <form action="" class="buttonBlock clearfix">
+                            <button class="signButton" type="button">√</button>
+                        </form>
+                    </div>
+                </li> -->
+                <!-- 待对方签署 -->
+                <!-- <li id="item_1">
+                    <div class="clearfix" style="width: 290px;">
+                        <p>合同:
+                            <span id="waitOtherContractName"></span>
+                        </p>
+                        <div class="waitOtherPreview" style="margin-top: 5px; color: cadetblues; text-align: center;">预览</div>
+                    </div>
+                    <div class="clearfix" style="width: 290px;">
+                        <p>签署对象：
+                            <span id="waitOtherTargetName"></span>
+                        </p>
+                        <p style="padding-top: 10px;">签署对象id：
+                            <span id="waitOtherTargetId"></span>
+                        </p>
+                    </div>
+                    <div style="width: 140px;">
+                        <p>状态：
+                            <span id="contractState">待对方签署</span>
+                        </p>
+                    </div>
+                </li> -->
+            </ol>
+
+            <form action="" class="clearfix">
+                <!-- <button id="nextButton" type="button">&gt;</button>
+                <button id="lastButton" type="button">&lt;</button> -->
+                <button id="addButton" type="button">+</button>
+            </form>
+        </div>
+
+        <a id="topButton" href="#">返回顶部</a>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../../static/js/public/contract.js"></script>
+    <script src="../../static/js/public.js"></script>
+</body>
+</html>
